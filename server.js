@@ -6,8 +6,7 @@ const videoRoute = require("./routes/videos");
 app.use(express.static("public/images"));
 const cors = require("cors");
 
-// const PORT = process.env.PORT || 4040;
-// kill derver/terminal - killall -9 node
+// const PORT = process.env.PORT || 4040; - not working....
 const PORT = 8080 || 4040;
 
 app.use(express.json());
